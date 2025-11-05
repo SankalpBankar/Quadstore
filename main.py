@@ -2,8 +2,8 @@ from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
 from pydantic import BaseModel
-import models
-from database import engine, SessionLocal
+from . import models
+from .database import engine, SessionLocal
 
 # Create DB tables
 models.Base.metadata.create_all(bind=engine)
