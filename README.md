@@ -31,7 +31,7 @@ Quadstore/
 Follow these steps to set up the Quadstore:
 ### 1️⃣ Clone the Repository 📥
 ```sh
-git clone https://github.com/<SankalpBankar>/QuadStore.git
+git clone https://github.com/SankalpBankar/QuadStore.git
 cd QuadStore
 ```
 
