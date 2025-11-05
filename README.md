@@ -1,4 +1,28 @@
-# QuadStore – Product Management System
+# 🛒 QuadStore – Product Management System
+A powerful **Product Management Web App** built with **FastAPI** ⚙️ (backend) and **Streamlit** 💻 (frontend).  
+
+## 📁 Project Directory Structure 🧠💬
+
+```
+Quadstore/
+│
+├── backend/
+│ ├── init.py
+│ ├── main.py
+│ ├── models.py
+│ ├── database.py
+│
+└── frontend/
+└── frontend.py
+
+```
+
+## 💡 Tech Stack 🛠️
+- **Python** 🐍 — Core programming language for logic and data handling
+- **Streamlit** 🌐 — For building the interactive web interface
+- **FastAPI** ⚙️ — Backend handling
+- **SQLite** 🗄️ — Database
+- **Swagger UI ** 🧪— API Docs
 
 ## Overview
 A simple full-stack Python lab project using:
