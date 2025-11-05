@@ -45,6 +45,8 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the Backend Server ⚙️
 ```sh
+cd backend
+pip install -r requirements.txt
 uvicorn backend.main:app --reload
 ```
 ✅ Server will start at → http://127.0.0.1:8000
@@ -53,6 +55,7 @@ uvicorn backend.main:app --reload
 ### 5️⃣ Run the Frontend App 💻
 ```sh
 cd frontend
+pip install streamlit requests
 streamlit run frontend.py
 ```
 🌐 App will open automatically → http://localhost:8501
@@ -77,42 +80,8 @@ Virtual env not activated
 myenv\Scripts\activate
 ```
 
-
-
-
-
-
-
-
-## Overview
-A simple full-stack Python lab project using:
-- FastAPI (Backend)
-- Streamlit (Frontend)
-- SQLite (Database)
-
-## How to Run
-
-### 1. Create Environment
-```
-python -m venv myenv
-myenv\Scripts\activate   # Windows
-source myenv/bin/activate  # Linux/Mac
-```
-
-### 2. Setup Backend
-```
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-Access API docs: http://127.0.0.1:8000/docs
-
-### 3. Run Frontend
-```
-cd frontend
-pip install streamlit requests
-streamlit run frontend.py
-```
-
-### 4. Use App 🎉
-Add, view, update, delete products.
+## 💻⚙️Contributions
+### 1️⃣ Sankalp Bankar (A7-B1-17)
+### 2️⃣ Anish Makhija  (A7-B1-01)
+### 3️⃣ Deeya Saoji    (A7-B1-10)
+### 4️⃣ Mansvi Khupse  (A7-B1-04)
