@@ -22,7 +22,67 @@ Quadstore/
 - **Streamlit** 🌐 — For building the interactive web interface
 - **FastAPI** ⚙️ — Backend handling
 - **SQLite** 🗄️ — Database
-- **Swagger UI ** 🧪— API Docs
+- **Swagger UI** 🧪— API Docs
+
+## ⚙️ Setup & Installation for Quadstore 🛒📦
+Follow these steps to set up the Quadstore:
+### 1️⃣ Clone the Repository 📥
+```sh
+git clone https://github.com/<your-username>/QuadStore.git
+cd QuadStore
+```
+
+### 2️⃣ Create and activate virtual environment 🐍
+```sh
+python -m venv myenv
+myenv\Scripts\activate
+```
+
+### 3️⃣ Install Dependencies �
+```sh
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the Backend Server ⚙️
+```sh
+uvicorn backend.main:app --reload
+```
+✅ Server will start at → http://127.0.0.1:8000
+📘 Interactive Docs → http://127.0.0.1:8000/docs
+
+### 5️⃣ Run the Frontend App 💻
+```sh
+cd frontend
+streamlit run frontend.py
+```
+🌐 App will open automatically → http://localhost:8501
+
+## 🛠️ Troubleshooting 🚨
+
+### 1. ConnectionError ❌:
+Backend not running
+```sh
+uvicorn backend.main:app --reload
+```
+
+### 2. PowerShell Activation Error ⚡
+Open PowerShell as Administrator and run:
+```sh
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+### 3. AttributeError 
+Virtual env not activated
+```sh
+myenv\Scripts\activate
+```
+
+
+
+
+
+
+
 
 ## Overview
 A simple full-stack Python lab project using:
