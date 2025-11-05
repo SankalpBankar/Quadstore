@@ -7,13 +7,15 @@ A powerful **Product Management Web App** built with **FastAPI** ⚙️ (backend
 Quadstore/
 │
 ├── backend/
-│ ├── init.py
-│ ├── main.py
-│ ├── models.py
-│ ├── database.py
-│
+│ ├── init.py        # 🗄️ Project root
+│ ├── main.py        # ⚙️ Algorithm code
+│ ├── models.py      # 📦 Database handling
+│ ├── database.py    # 🗄️ Database 
+│ 
 └── frontend/
-└── frontend.py
+└── frontend.py       # 🖥️🎨 Streamlit app (main simulator)
+│── requirements.txt  # ✅ Dependencies list
+│── .gitignore        # 🛡️To exclude myenv and other temp files
 
 ```
 
