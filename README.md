@@ -48,8 +48,6 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the Backend Server ⚙️
 ```sh
-cd backend
-pip install -r requirements.txt
 uvicorn backend.main:app --reload
 ```
 ✅ Server will start at → http://127.0.0.1:8000
